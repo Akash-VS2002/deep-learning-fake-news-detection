@@ -47,22 +47,23 @@ The text is converted using:
 # 📁 Project Structure
 
 ```
-FakeNewsProject/
-│── app.py                 # Main Flask application
-│── model.h5               # Trained deep learning model
-│── tokenizer.pkl          # Saved tokenizer
-│── requirements.txt       # Dependencies
-│── README.md              # Documentation
+deep-learning-fake-news-detection/
+│── app.py
+│── requirements.txt
+│── README.md
+│── .gitignore
 │
-├── templates/
-│   │── index.html         # Input page
-│   │── result.html        # Output page
+├── model/
+│     ├── fake_news_best_model.h5
+│     └── tokenizer.pkl
 │
-├── utils/
-│   └── preprocessing.py   # Text cleaning & padding functions
+├── static/
+│     ├── style.css
+│     └── bg.jpg
 │
-└── static/
-    └── style.css          # Optional CSS
+└── templates/
+      └── index.html
+
 ```
 
 ---
