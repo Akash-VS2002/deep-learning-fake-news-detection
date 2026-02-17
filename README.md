@@ -212,10 +212,5 @@ From this project you will learn:
 ✔ Real-world ML workflow
 
 ---
-If you want, I can also provide:
-
-✅ Training Notebook
-✅ Best Model Architecture (High Accuracy)
-✅ Deployment Guide
 
 
